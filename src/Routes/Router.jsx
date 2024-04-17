@@ -21,12 +21,12 @@ const router = createBrowserRouter([
             {
                 path: '/',
                 element: <Home></Home>,
-                loader: () => fetch('/public/real_estate.json')
+                loader: () => fetch('/real_estate.json')
             },
             {
                 path: '/property/:id',
                 element: <PrivateRoute><PropertyItem></PropertyItem></PrivateRoute>,
-                loader: () => import('/public/real_estate.json')
+                loader: () => import('/real_estate.json')
             },
             {
                 path: "/about-us",

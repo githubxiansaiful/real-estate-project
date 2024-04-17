@@ -4,7 +4,7 @@ const Footer = () => {
             <div className="container">
                 <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 mb-10">
                     <div>
-                        <img className="mb-3" src="/public/real-logo.png"/>
+                        <img className="mb-3" src="/real-logo.png"/>
                         <p className="text-white">Welcome to Real Estate, where we make your dream of finding the perfect home a reality. With years of expertise in the industry.</p>
                     </div>
                     <div>
